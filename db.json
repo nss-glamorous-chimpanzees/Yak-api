@@ -1,0 +1,51 @@
+{
+    "users": [
+        {
+            "id": 1, 
+            "first": "Josh",
+            "last": "Barton", 
+            "location": "the universe", 
+            "password": "password", 
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Florida_Box_Turtle_Digon3_re-edited.jpg/220px-Florida_Box_Turtle_Digon3_re-edited.jpg", 
+            "email": "me@fake.noway"
+        }, 
+        {
+            "id": 2, 
+            "first": "Paul",
+            "last": "Zimmerman-Clayton", 
+            "location": "Nashville, TN", 
+            "password": "hispassword", 
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Giraffe_Mikumi_National_Park.jpg/220px-Giraffe_Mikumi_National_Park.jpg", 
+            "email": "him@fake.noway"
+        }
+    ], 
+    "posts": [
+        {
+            "id": 1, 
+            "userId": 1, 
+            "title": "I had a great Memorial Day", 
+            "content": "I had a brunch celebration with my family.", 
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Graves_at_Arlington_on_Memorial_Day.JPG/800px-Graves_at_Arlington_on_Memorial_Day.JPG", 
+            "date": "2018-05-30"
+        }
+    ],
+    "follows": [
+        {
+            "id": 1, 
+            "userId": 1,
+            "followId": 2, 
+            "friends": false
+        }
+    ], 
+    "notifications": [
+        {
+            "id": 1, 
+            "userId": 1, 
+            "fromId": 2, 
+            "type": "request", 
+            "title": "Paul wants to connect on Yak", 
+            "date": "2018-05-30", 
+            "active": true
+        }
+    ]
+}
