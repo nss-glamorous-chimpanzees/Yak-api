@@ -47,5 +47,26 @@
             "date": "2018-05-30", 
             "active": true
         }
+    ],
+    "ads": [
+        {
+            "id": 1,
+            "content": "Ad Content 1",
+            "company": "Ad Company 1",
+            "title": "Ad Title 1"
+        },
+        {
+            "id": 2,
+            "content": "Ad Content 2",
+            "company": "Ad Company 2",
+            "title": "Ad Title 2"
+        }
+    ],
+    "usersads": [
+        {
+            "id": 1,
+            "userId": 1,
+            "adId": 1
+        }
     ]
 }
