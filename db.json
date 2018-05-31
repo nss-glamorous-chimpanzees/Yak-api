@@ -17,6 +17,15 @@
             "password": "hispassword", 
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Giraffe_Mikumi_National_Park.jpg/220px-Giraffe_Mikumi_National_Park.jpg", 
             "email": "him@fake.noway"
+        },
+        {
+            "id": 3, 
+            "first": "Katheryn",
+            "last": "Ford", 
+            "location": "Hermitage, TN", 
+            "password": "herpassword", 
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/RedPandaFullBody.JPG/220px-RedPandaFullBody.JPG", 
+            "email": "Katheryn@fake.noway"
         }
     ], 
     "posts": [
@@ -34,7 +43,25 @@
             "id": 1, 
             "userId": 1,
             "followId": 2, 
-            "friends": false
+            "friends": true
+        },
+        {
+            "id": 2, 
+            "userId": 2,
+            "followId": 1, 
+            "friends": true
+        },
+        {
+            "id": 3, 
+            "userId": 1,
+            "followId": 3, 
+            "friends": true
+        },
+        {
+            "id": 4, 
+            "userId": 3,
+            "followId": 1, 
+            "friends": true
         }
     ], 
     "notifications": [
