@@ -26,6 +26,15 @@
             "password": "herpassword", 
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/RedPandaFullBody.JPG/220px-RedPandaFullBody.JPG", 
             "email": "Katheryn@fake.noway"
+        },
+        {
+            "id": 4,
+            "first": "Friendless",
+            "last": "Grumpypants",
+            "location": "Outside, eating worms",
+            "password": "friendlessgrumpypants",
+            "image": "https://en.wikipedia.org/wiki/File:AEOrangeOscar.jpg",
+            "email": "dontEmailMe@never.com"
         }
     ], 
     "posts": [
