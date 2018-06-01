@@ -1,170 +1,187 @@
 {
-    "users": [
-        {
-            "id": 1, 
-            "first": "Josh",
-            "last": "Barton", 
-            "location": "the universe", 
-            "password": "password", 
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Florida_Box_Turtle_Digon3_re-edited.jpg/220px-Florida_Box_Turtle_Digon3_re-edited.jpg", 
-            "email": "me@fake.noway"
-        }, 
-        {
-            "id": 2, 
-            "first": "Paul",
-            "last": "Zimmerman-Clayton", 
-            "location": "Nashville, TN", 
-            "password": "hispassword", 
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Giraffe_Mikumi_National_Park.jpg/220px-Giraffe_Mikumi_National_Park.jpg", 
-            "email": "him@fake.noway"
-        },
-        {
-            "id": 3, 
-            "first": "Katheryn",
-            "last": "Ford", 
-            "location": "Hermitage, TN", 
-            "password": "herpassword", 
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/RedPandaFullBody.JPG/220px-RedPandaFullBody.JPG", 
-            "email": "Katheryn@fake.noway"
-        },
-        {
-            "id": 4,
-            "first": "Friendless",
-            "last": "Grumpypants",
-            "location": "Outside, eating worms",
-            "password": "password",
-            "image": "https://upload.wikimedia.org/wikipedia/en/7/7e/AEOrangeOscar.jpg",
-            "email": "dontEmailMe@never.com"
-        },
-        {
-            "id": 5,
-            "first": "Everyone",
-            "last": "FollowsMe",
-            "location": "Somewhere fabulous",
-            "password": "password",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Katy_Perry%E2%80%93Zenith_Paris.jpg/170px-Katy_Perry%E2%80%93Zenith_Paris.jpg",
-            "email": "everyoneFollowsMe@gmail.com"
-        }
-    ], 
-    "posts": [
-        {
-            "id": 1, 
-            "userId": 1, 
-            "title": "I had a great Memorial Day", 
-            "content": "I had a brunch celebration with my family.", 
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Graves_at_Arlington_on_Memorial_Day.JPG/800px-Graves_at_Arlington_on_Memorial_Day.JPG", 
-            "date": "2018-05-28",
-            "toFriendId": null
-        },
-        {
-            "id": 2,
-            "userId": 2,
-            "title": "I had a terrible Memorial Day",
-            "content": "I had a brunch celebration with my family.",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Graves_at_Arlington_on_Memorial_Day.JPG/800px-Graves_at_Arlington_on_Memorial_Day.JPG",
-            "date": "2018-05-29",
-            "toFriendId": null
-        },
-        {
-            "id": 3,
-            "userId": 4,
-            "title": "Grouch grouch grouch",
-            "content": "Grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch.",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Graves_at_Arlington_on_Memorial_Day.JPG/800px-Graves_at_Arlington_on_Memorial_Day.JPG",
-            "date": "2018-05-30",
-            "toFriendId": null
-        },
-        {
-            "id": 4,
-            "userId": 5, 
-            "title": "Love me; I'm famous.", 
-            "content": "Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.", 
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Graves_at_Arlington_on_Memorial_Day.JPG/800px-Graves_at_Arlington_on_Memorial_Day.JPG", 
-            "date": "2018-04-10",
-            "toFriendId": null
-        }
-    ],
-    "follows": [
-        {
-            "id": 1, 
-            "userId": 1,
-            "followId": 2, 
-            "friends": true
-        },
-        {
-            "id": 2, 
-            "userId": 2,
-            "followId": 1, 
-            "friends": true
-        },
-        {
-            "id": 3, 
-            "userId": 1,
-            "followId": 3, 
-            "friends": true
-        },
-        {
-            "id": 4, 
-            "userId": 3,
-            "followId": 1, 
-            "friends": true
-        },
-        {
-            "id": 5,
-            "userId": 1,
-            "followId": 5,
-            "friends": false
-        },
-        {
-            "id": 6,
-            "userId": 2,
-            "followId": 5,
-            "friends": false
-        },
-        {
-            "id": 7,
-            "userId": 3,
-            "followId": 5,
-            "friends": false
-        },
-        {
-            "id": 8,
-            "userId": 4,
-            "followId": 5,
-            "friends": false
-        }
-
-    ], 
-    "notifications": [
-        {
-            "id": 1, 
-            "userId": 1, 
-            "fromId": 2, 
-            "type": "request", 
-            "title": "Paul wants to connect on Yak", 
-            "date": "2018-05-30", 
-            "active": true
-        }
-    ],
-    "ads": [
-        {
-            "id": 1,
-            "content": "Ad Content 1",
-            "company": "Ad Company 1",
-            "title": "Ad Title 1"
-        },
-        {
-            "id": 2,
-            "content": "Ad Content 2",
-            "company": "Ad Company 2",
-            "title": "Ad Title 2"
-        }
-    ],
-    "usersads": [
-        {
-            "id": 1,
-            "userId": 1,
-            "adId": 1
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "first": "Josh",
+      "last": "Barton",
+      "location": "Chattanooga",
+      "password": "password",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Florida_Box_Turtle_Digon3_re-edited.jpg/220px-Florida_Box_Turtle_Digon3_re-edited.jpg",
+      "email": "me@fake.noway"
+    },
+    {
+      "id": 2,
+      "first": "Paul",
+      "last": "Zimmerman-Clayton",
+      "location": "Nashville",
+      "password": "hispassword",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Giraffe_Mikumi_National_Park.jpg/220px-Giraffe_Mikumi_National_Park.jpg",
+      "email": "him@fake.noway"
+    },
+    {
+      "id": 3,
+      "first": "Katheryn",
+      "last": "Ford",
+      "location": "Memphis",
+      "password": "herpassword",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/RedPandaFullBody.JPG/220px-RedPandaFullBody.JPG",
+      "email": "Katheryn@fake.noway"
+    },
+    {
+      "id": 4,
+      "first": "Friendless",
+      "last": "Grumpypants",
+      "location": "Memphis",
+      "password": "password",
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/7e/AEOrangeOscar.jpg",
+      "email": "dontEmailMe@never.com"
+    },
+    {
+      "id": 5,
+      "first": "Everyone",
+      "last": "FollowsMe",
+      "location": "Nashville",
+      "password": "password",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Katy_Perry%E2%80%93Zenith_Paris.jpg/170px-Katy_Perry%E2%80%93Zenith_Paris.jpg",
+      "email": "everyoneFollowsMe@gmail.com"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "I had a great Memorial Day",
+      "content": "I had a brunch celebration with my family.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Graves_at_Arlington_on_Memorial_Day.JPG/800px-Graves_at_Arlington_on_Memorial_Day.JPG",
+      "date": "2018-05-28",
+      "toFriendId": null
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "title": "I had a terrible Memorial Day",
+      "content": "I had a brunch celebration with my family.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Graves_at_Arlington_on_Memorial_Day.JPG/800px-Graves_at_Arlington_on_Memorial_Day.JPG",
+      "date": "2018-05-29",
+      "toFriendId": null
+    },
+    {
+      "id": 3,
+      "userId": 4,
+      "title": "Grouch grouch grouch",
+      "content": "Grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Graves_at_Arlington_on_Memorial_Day.JPG/800px-Graves_at_Arlington_on_Memorial_Day.JPG",
+      "date": "2018-05-30",
+      "toFriendId": null
+    },
+    {
+      "id": 4,
+      "userId": 5,
+      "title": "Love me; I'm famous.",
+      "content": "Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Graves_at_Arlington_on_Memorial_Day.JPG/800px-Graves_at_Arlington_on_Memorial_Day.JPG",
+      "date": "2018-04-10",
+      "toFriendId": null
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "title": "Checking in.",
+      "content": "what's up?",
+      "image": "",
+      "date": "2018-06-01",
+      "toFriendId": 2
+    },
+    {
+      "id": 6,
+      "userId": 2,
+      "title": "Response",
+      "content": "I'm LOVING react!",
+      "image": "",
+      "date": "2018-06-02",
+      "toFriendId": 1
+    }
+  ],
+  "follows": [
+    {
+      "id": 1,
+      "userId": 1,
+      "followId": 2,
+      "friends": true
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "followId": 1,
+      "friends": true
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "followId": 3,
+      "friends": true
+    },
+    {
+      "id": 4,
+      "userId": 3,
+      "followId": 1,
+      "friends": true
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "followId": 5,
+      "friends": false
+    },
+    {
+      "id": 6,
+      "userId": 2,
+      "followId": 5,
+      "friends": false
+    },
+    {
+      "id": 7,
+      "userId": 3,
+      "followId": 5,
+      "friends": false
+    },
+    {
+      "id": 8,
+      "userId": 4,
+      "followId": 5,
+      "friends": false
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "userId": 1,
+      "fromId": 2,
+      "type": "request",
+      "title": "Paul wants to connect on Yak",
+      "date": "2018-05-30",
+      "active": true
+    }
+  ],
+  "ads": [
+    {
+      "id": 1,
+      "content": "Ad Content 1",
+      "company": "Ad Company 1",
+      "title": "Ad Title 1"
+    },
+    {
+      "id": 2,
+      "content": "Ad Content 2",
+      "company": "Ad Company 2",
+      "title": "Ad Title 2"
+    }
+  ],
+  "usersads": [
+    {
+      "id": 1,
+      "userId": 1,
+      "adId": 1
+    }
+  ]
 }
