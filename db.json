@@ -32,9 +32,18 @@
             "first": "Friendless",
             "last": "Grumpypants",
             "location": "Outside, eating worms",
-            "password": "friendlessgrumpypants",
+            "password": "password",
             "image": "https://upload.wikimedia.org/wikipedia/en/7/7e/AEOrangeOscar.jpg",
             "email": "dontEmailMe@never.com"
+        },
+        {
+            "id": 5,
+            "first": "Everyone",
+            "last": "FollowsMe",
+            "location": "Somewhere fabulous",
+            "password": "password",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Katy_Perry%E2%80%93Zenith_Paris.jpg/170px-Katy_Perry%E2%80%93Zenith_Paris.jpg",
+            "email": "everyoneFollowsMe@gmail.com"
         }
     ], 
     "posts": [
@@ -44,7 +53,35 @@
             "title": "I had a great Memorial Day", 
             "content": "I had a brunch celebration with my family.", 
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Graves_at_Arlington_on_Memorial_Day.JPG/800px-Graves_at_Arlington_on_Memorial_Day.JPG", 
-            "date": "2018-05-30"
+            "date": "2018-05-28",
+            "toFriendId": null
+        },
+        {
+            "id": 2,
+            "userId": 2,
+            "title": "I had a terrible Memorial Day",
+            "content": "I had a brunch celebration with my family.",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Graves_at_Arlington_on_Memorial_Day.JPG/800px-Graves_at_Arlington_on_Memorial_Day.JPG",
+            "date": "2018-05-29",
+            "toFriendId": null
+        },
+        {
+            "id": 3,
+            "userId": 4,
+            "title": "Grouch grouch grouch",
+            "content": "Grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch.",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Graves_at_Arlington_on_Memorial_Day.JPG/800px-Graves_at_Arlington_on_Memorial_Day.JPG",
+            "date": "2018-05-30",
+            "toFriendId": null
+        },
+        {
+            "id": 4,
+            "userId": 5, 
+            "title": "Love me; I'm famous.", 
+            "content": "Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.", 
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Graves_at_Arlington_on_Memorial_Day.JPG/800px-Graves_at_Arlington_on_Memorial_Day.JPG", 
+            "date": "2018-04-10",
+            "toFriendId": null
         }
     ],
     "follows": [
@@ -71,7 +108,32 @@
             "userId": 3,
             "followId": 1, 
             "friends": true
+        },
+        {
+            "id": 5,
+            "userId": 1,
+            "followId": 5,
+            "friends": false
+        },
+        {
+            "id": 6,
+            "userId": 2,
+            "followId": 5,
+            "friends": false
+        },
+        {
+            "id": 7,
+            "userId": 3,
+            "followId": 5,
+            "friends": false
+        },
+        {
+            "id": 8,
+            "userId": 4,
+            "followId": 5,
+            "friends": false
         }
+
     ], 
     "notifications": [
         {
