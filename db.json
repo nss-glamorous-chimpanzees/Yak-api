@@ -62,7 +62,7 @@
       "title": "I had a terrible Memorial Day",
       "content": "I had a brunch celebration with my family.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Graves_at_Arlington_on_Memorial_Day.JPG/800px-Graves_at_Arlington_on_Memorial_Day.JPG",
-      "date": "2018-05-29",
+      "date": "2018-05-28",
       "toFriendId": null
     },
     {
@@ -105,50 +105,50 @@
   "follows": [
     {
       "id": 1,
-      "userId": 1,
-      "followId": 2,
+      "requestingFriendId": 1,
+      "acceptedFriendId": 2,
       "friends": true
     },
     {
       "id": 2,
-      "userId": 2,
-      "followId": 1,
+      "requestingFriendId": 2,
+      "acceptedFriendId": 1,
       "friends": true
     },
     {
       "id": 3,
-      "userId": 1,
-      "followId": 3,
+      "requestingFriendId": 1,
+      "acceptedFriendId": 3,
       "friends": true
     },
     {
       "id": 4,
-      "userId": 3,
-      "followId": 1,
+      "requestingFriendId": 3,
+      "acceptedFriendId": 1,
       "friends": true
     },
     {
       "id": 5,
-      "userId": 1,
-      "followId": 5,
+      "requestingFriendId": 1,
+      "acceptedFriendId": 5,
       "friends": false
     },
     {
       "id": 6,
-      "userId": 2,
-      "followId": 5,
+      "requestingFriendId": 2,
+      "acceptedFriendId": 5,
       "friends": false
     },
     {
       "id": 7,
-      "userId": 3,
-      "followId": 5,
+      "requestingFriendId": 3,
+      "acceptedFriendId": 5,
       "friends": false
     },
     {
       "id": 8,
-      "userId": 4,
-      "followId": 5,
+      "requestingFriendId": 4,
+      "acceptedFriendId": 5,
       "friends": false
     }
   ],
