@@ -102,54 +102,58 @@
       "toFriendId": 1
     }
   ],
-  "follows": [
+  "friends": [
     {
       "id": 1,
       "requestingFriendId": 1,
-      "acceptedFriendId": 2,
-      "friends": true
+      "acceptedFriendId": 2
     },
     {
       "id": 2,
-      "requestingFriendId": 2,
-      "acceptedFriendId": 1,
-      "friends": true
+      "requestingFriendId": 3,
+      "acceptedFriendId": 1
+    }
+  ],
+  "follows": [
+    {
+      "id": 1,
+      "userId": 1,
+      "friendId": 2
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "friendId": 1
     },
     {
       "id": 3,
-      "requestingFriendId": 1,
-      "acceptedFriendId": 3,
-      "friends": true
+      "userId": 1,
+      "friendId": 3
     },
     {
       "id": 4,
-      "requestingFriendId": 3,
-      "acceptedFriendId": 1,
-      "friends": true
+      "userId": 3,
+      "friendId": 1
     },
     {
       "id": 5,
-      "requestingFriendId": 1,
-      "acceptedFriendId": 5,
-      "friends": false
+      "userId": 1,
+      "friendId": 5
     },
     {
       "id": 6,
-      "requestingFriendId": 2,
-      "acceptedFriendId": 5,
-      "friends": false
+      "userId": 2,
+      "friendId": 5
     },
     {
       "id": 7,
-      "requestingFriendId": 3,
-      "acceptedFriendId": 5,
-      "friends": false
+      "userId": 3,
+      "friendId": 5
     },
     {
       "id": 8,
-      "requestingFriendId": 4,
-      "acceptedFriendId": 5,
-      "friends": false
+      "userId": 4,
+      "friendId": 5
     }
   ],
   "notifications": [
