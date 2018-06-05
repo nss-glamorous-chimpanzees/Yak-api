@@ -46,6 +46,15 @@
       "email": "everyoneFollowsMe@gmail.com"
     },
     {
+      "first": "Katheryn",
+      "last": "Ford",
+      "email": "fake@fake.horse",
+      "password": "somepassword",
+      "image": "",
+      "location": "Memphis",
+      "id": 7
+    },
+    {
       "id": 6,
       "first": "Steve",
       "last": "Brownlee",
@@ -268,5 +277,86 @@
       "title": "Ad Title 2"
     }
   ],
-  "usersads": []
+  "usersads": [
+    {
+      "id": 1,
+      "userId": 1,
+      "adId": 1
+    },
+    {
+      "userId": "3",
+      "adId": "1",
+      "id": 6
+    },
+    {
+      "userId": null,
+      "adId": "2",
+      "id": 7
+    }
+  ],
+  "events": [
+    {
+      "userId": "3",
+      "name": "Name",
+      "location": "loc",
+      "date": "2018-06-06",
+      "start": "00:00",
+      "end": "02:00",
+      "id": 4
+    },
+    {
+      "userId": "3",
+      "name": "grdgd",
+      "location": "gdfgfdgdg",
+      "date": "2018-06-14",
+      "start": "02:01",
+      "end": "04:03",
+      "id": 5
+    },
+    {
+      "userId": "3",
+      "name": "rteet",
+      "location": "hjtjgyhj",
+      "date": "2018-06-22",
+      "start": "13:00",
+      "end": "14:00",
+      "id": 6
+    },
+    {
+      "userId": "2",
+      "name": "uh-uh",
+      "location": "nope",
+      "date": "2018-06-22",
+      "start": "13:00",
+      "end": "14:00",
+      "id": 6
+    },
+    {
+      "userId": "3",
+      "name": "Name",
+      "location": "new one",
+      "date": "2018-06-06",
+      "start": "00:00",
+      "end": "02:00",
+      "id": 7
+    },
+    {
+      "userId": "3",
+      "name": "Name",
+      "location": "new one 2",
+      "date": "2018-06-06",
+      "start": "00:00",
+      "end": "02:00",
+      "id": 8
+    },
+    {
+      "userId": "3",
+      "name": "reterqtert",
+      "location": "tewrtretrt",
+      "date": "2018-06-01",
+      "start": "01:00",
+      "end": "01:00",
+      "id": 9
+    }
+  ]
 }
