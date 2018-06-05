@@ -44,6 +44,15 @@
       "password": "password",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Katy_Perry%E2%80%93Zenith_Paris.jpg/170px-Katy_Perry%E2%80%93Zenith_Paris.jpg",
       "email": "everyoneFollowsMe@gmail.com"
+    },
+    {
+      "id": 6,
+      "first": "Steve",
+      "last": "Brownlee",
+      "location": "Nashville",
+      "password": "me",
+      "image": "http://nashvillesoftwareschool.com/images/instructors/steve.jpg",
+      "email": "steve@stevebrownlee.com"
     }
   ],
   "posts": [
@@ -53,7 +62,7 @@
       "title": "I had a great Memorial Day",
       "content": "I had a brunch celebration with my family.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Graves_at_Arlington_on_Memorial_Day.JPG/800px-Graves_at_Arlington_on_Memorial_Day.JPG",
-      "date": "2018-05-28",
+      "date": "5/28/2018",
       "toFriendId": null
     },
     {
@@ -62,7 +71,7 @@
       "title": "I had a terrible Memorial Day",
       "content": "I had a brunch celebration with my family.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Graves_at_Arlington_on_Memorial_Day.JPG/800px-Graves_at_Arlington_on_Memorial_Day.JPG",
-      "date": "2018-05-28",
+      "date": "5/28/2018",
       "toFriendId": null
     },
     {
@@ -71,7 +80,7 @@
       "title": "Grouch grouch grouch",
       "content": "Grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch grouch.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Graves_at_Arlington_on_Memorial_Day.JPG/800px-Graves_at_Arlington_on_Memorial_Day.JPG",
-      "date": "2018-05-30",
+      "date": "5/30/2018",
       "toFriendId": null
     },
     {
@@ -80,7 +89,7 @@
       "title": "Love me; I'm famous.",
       "content": "Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Graves_at_Arlington_on_Memorial_Day.JPG/800px-Graves_at_Arlington_on_Memorial_Day.JPG",
-      "date": "2018-04-10",
+      "date": "4/10/2018",
       "toFriendId": null
     },
     {
@@ -88,8 +97,8 @@
       "userId": 1,
       "title": "Checking in.",
       "content": "what's up?",
-      "image": "",
-      "date": "2018-06-01",
+      "image": null,
+      "date": "6/1/2018",
       "toFriendId": 2
     },
     {
@@ -97,9 +106,36 @@
       "userId": 2,
       "title": "Response",
       "content": "I'm LOVING react!",
-      "image": "",
-      "date": "2018-06-02",
+      "image": null,
+      "date": "6/2/2018",
       "toFriendId": 1
+    },
+    {
+      "content": "Boats!",
+      "userId": "1",
+      "title": "Boats! Boats! BOATS!",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Pilot_Boat_Mercury.jpg/1920px-Pilot_Boat_Mercury.jpg",
+      "date": "6/4/2018",
+      "toFriendId": null,
+      "id": 7
+    },
+    {
+      "content": "This is some text!",
+      "userId": 4,
+      "title": "Good Morning!",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/%D0%A8%D0%B0%D0%BC%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D1%82%D1%80%D0%BE%D1%81%D1%82%D1%8C.JPG/1920px-%D0%A8%D0%B0%D0%BC%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D1%82%D1%80%D0%BE%D1%81%D1%82%D1%8C.JPG",
+      "date": "6/5/2018",
+      "toFriendId": null,
+      "id": 11
+    },
+    {
+      "content": "asdfasdf",
+      "userId": "1",
+      "title": "sdfasdf",
+      "image": "asdfsd",
+      "date": "6/5/2018",
+      "toFriendId": null,
+      "id": 12
     }
   ],
   "friends": [
@@ -112,48 +148,63 @@
       "id": 2,
       "requestingFriendId": 3,
       "acceptedFriendId": 1
+    },
+    {
+      "id": 3,
+      "requestingFriendId": 6,
+      "acceptedFriendId": 1
+    },
+    {
+      "id": 4,
+      "requestingFriendId": 6,
+      "acceptedFriendId": 5
     }
   ],
   "follows": [
     {
       "id": 1,
       "userId": 1,
-      "friendId": 2
+      "followId": 2
     },
     {
       "id": 2,
       "userId": 2,
-      "friendId": 1
+      "followId": 1
     },
     {
       "id": 3,
       "userId": 1,
-      "friendId": 3
+      "followId": 3
     },
     {
       "id": 4,
       "userId": 3,
-      "friendId": 1
+      "followId": 1
     },
     {
       "id": 5,
       "userId": 1,
-      "friendId": 5
+      "followId": 5
     },
     {
       "id": 6,
       "userId": 2,
-      "friendId": 5
+      "followId": 5
     },
     {
       "id": 7,
       "userId": 3,
-      "friendId": 5
+      "followId": 5
     },
     {
       "id": 8,
       "userId": 4,
-      "friendId": 5
+      "followId": 5
+    },
+    {
+      "id": 9,
+      "userId": 6,
+      "followId": 5
     }
   ],
   "notifications": [
@@ -181,11 +232,5 @@
       "title": "Ad Title 2"
     }
   ],
-  "usersads": [
-    {
-      "id": 1,
-      "userId": 1,
-      "adId": 1
-    }
-  ]
+  "usersads": []
 }
