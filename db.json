@@ -129,13 +129,49 @@
       "id": 11
     },
     {
-      "content": "asdfasdf",
+      "content": "",
       "userId": "1",
-      "title": "sdfasdf",
-      "image": "asdfsd",
+      "title": "faff about",
+      "image": "",
       "date": "6/5/2018",
       "toFriendId": null,
       "id": 12
+    },
+    {
+      "content": "",
+      "userId": "1",
+      "title": "hey paul",
+      "image": "",
+      "date": "6/5/2018",
+      "toFriendId": "2",
+      "id": 13
+    },
+    {
+      "content": "What's up?",
+      "userId": 6,
+      "title": "Hey Katy",
+      "image": "",
+      "date": "6/5/2018",
+      "toFriendId": "5",
+      "id": 14
+    },
+    {
+      "content": "",
+      "userId": "6",
+      "title": "this post has a non-URL image",
+      "image": "sadgasdgasdg",
+      "date": "6/5/2018",
+      "toFriendId": null,
+      "id": 15
+    },
+    {
+      "content": "adfhadfhadfhafd",
+      "userId": "6",
+      "title": "asdgasdgh",
+      "image": "",
+      "date": "6/5/2018",
+      "toFriendId": null,
+      "id": 16
     }
   ],
   "friends": [
