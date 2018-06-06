@@ -62,6 +62,15 @@
       "password": "me",
       "image": "http://nashvillesoftwareschool.com/images/instructors/steve.jpg",
       "email": "steve@stevebrownlee.com"
+    },
+    {
+      "first": "Beep",
+      "last": "Borp",
+      "email": "beep@beep.com",
+      "password": "a",
+      "image": "",
+      "location": "Nashville",
+      "id": 8
     }
   ],
   "posts": [
@@ -106,7 +115,7 @@
       "userId": 1,
       "title": "Checking in.",
       "content": "what's up?",
-      "image": null,
+      "image": "",
       "date": "6/1/2018",
       "toFriendId": 2
     },
@@ -115,7 +124,7 @@
       "userId": 2,
       "title": "Response",
       "content": "I'm LOVING react!",
-      "image": null,
+      "image": "",
       "date": "6/2/2018",
       "toFriendId": 1
     },
@@ -136,6 +145,15 @@
       "date": "6/5/2018",
       "toFriendId": null,
       "id": 11
+    },
+    {
+      "content": "",
+      "userId": "6",
+      "title": "Hey Ms. Perry",
+      "image": "",
+      "date": "6/5/2018",
+      "toFriendId": "5",
+      "id": 12
     }
   ],
   "friends": [
@@ -234,19 +252,9 @@
   ],
   "usersads": [
     {
-      "id": 1,
-      "userId": 1,
-      "adId": 1
-    },
-    {
-      "userId": "3",
+      "userId": "6",
       "adId": "1",
-      "id": 6
-    },
-    {
-      "userId": null,
-      "adId": "2",
-      "id": 7
+      "id": 1
     }
   ],
   "events": [
